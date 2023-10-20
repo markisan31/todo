@@ -1,0 +1,9 @@
+server.port=14444
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
+spring.datasource.username=username
+spring.datasource.password=password
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+spring.liquibase.change-log=classpath:db/changelog/master-changelog.yaml
+spring.liquibase.contexts=staging
